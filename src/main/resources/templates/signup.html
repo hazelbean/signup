@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:background-color="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>신규가입</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signup-form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-field {
+            width: 200px;
+            height: 25px;
+            padding: 4px 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .submit-btn {
+            width: 220px;
+            height: 30px;
+            background-color: #00386c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .submit-btn:hover {
+            background-color: #00509e;
+        }
+    </style>
+</head>
+<body>
+<form action="/signup" method="post" autocomplete="off" class="signup-form">
+    <input type="text" name="id" placeholder="아이디" class="input-field"><br><br>
+    <input type="password" name="password" placeholder="비밀번호" class="input-field"><br><br>
+    <input type="password" name="confirmPassword" placeholder="비밀번호 확인" class="input-field"><br><br>
+    <button type="submit" class="submit-btn">가입</button>
+</form>
+</body>
+</html>
+</html>
