@@ -7,6 +7,15 @@
  - IntelliJ IDEA 2025.1.1.1 (Ultimate Edition)<br>
  - H2 Database<br>
 
+ <h3>☑️ 테스트 정보</h3>
+ - 신규가입자 처리 페이지 접속 URL : http://127.0.0.1:8081/signup<br>
+ - H2 Database 페이지 접속 URL : http://127.0.0.1:8081/h2-console<br>
+ - H2 Database 로그인 정보<br>
+ &ensp;-- Driver Class : org.h2.Driver<br>
+ &ensp;-- JDBC URL : jdbc:h2:mem:testdb<br>
+ &ensp;-- User Name : sa<br>
+ &ensp;-- Password : 없음<br>
+
 <h3>☑️ 아이디 제약사항</h3>
  - E-mail 양식을 사용한다.<br>
  - 최대 길이는 32 이다.<br>
